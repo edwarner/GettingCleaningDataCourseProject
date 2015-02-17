@@ -13,11 +13,17 @@ x_feature <- read.table("features.txt", header = FALSE, stringsAsFactors = FALSE
 
 x_columnnames <- x_feature[,2]
 
+x_columnnames <- gsub("-","_", x_columnnames)
+x_columnnames <- gsub(",","_", x_columnnames)
+x_columnnames <- gsub('\\(',"_", x_columnnames)
+x_columnnames <- gsub('\\)',"_", x_columnnames)
+x_columnnames <- gsub("__","", x_columnnames)
+
 colnames(x_combined) <- x_columnnames
 colnames(y_combined) <- c("Activity_Name")
 colnames(s_combined) <- c("Subject")
 
-x_combined <- x_combined[, grepl("mean()", colnames(x_combined)) | grepl("std()", colnames(x_combined))]
+x_combined <- x_combined[, grepl("mean", colnames(x_combined)) | grepl("std", colnames(x_combined))]
 
 ysx_combined <- cbind(y_combined, s_combined, x_combined)
 
