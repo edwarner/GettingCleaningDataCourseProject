@@ -33,3 +33,7 @@ activity_subject <- group_by(ysx_combined, Activity_Name, Subject)
 mean_activity_subject <- summarise_each(activity_subject, funs(mean))
 
 write.table(mean_activity_subject, "mean_activity_subject.txt", row.names = FALSE)
+
+data <- read.table("mean_activity_subject.txt", header = TRUE)
+
+View(data)
