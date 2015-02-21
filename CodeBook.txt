@@ -1,8 +1,12 @@
 The original features from the features.txt have been updated to be more tidy
 
-The features are now a reduced set of features that contain the means of the original mean and std columns grouped by activity and subject.
+The features are now a reduced set of features that contain the means of the original mean and std columns 
+grouped by activity and subject.
 
 For example, the new feature "tBodyAcc_mean_X" is the mean of the original feature "tBodyAcc-mean()-X" grouped by activity and subject.
+
+The first two columns are from the original feature set.  Columns 3 through
+81 are the new features.  All the columns are in their original units.
 
 For a description of the original features please see the files, features.txt and features_info.txt
 
