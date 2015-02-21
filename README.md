@@ -18,6 +18,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 2. run_analysis.R - the R code that loads the original data, cleans it, then outputs the tidy data
 3. CodeBook.txt - a description of the features in the "tidy and clean" mean_activity_subject.txt file
 4. mean_activity_subject.txt - the "tidy and clean" data
+5. features.txt - the original features
+6. features_info.txt - a description of the original features
 
 ###The R Script (run_analysis.R) completes the analysis of the data.  It performs the following steps:
 
