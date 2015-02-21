@@ -1,8 +1,8 @@
 # Getting Cleaning Data Course Project
 
-#Ervin-Dawson Warner
+####Ervin-Dawson Warner
 
-The goal of the project was to take the original cellphone data and provide new "tidy and clean" data.
+###The goal of the project was to take the original cellphone data and provide new "tidy and clean" data.
 
 A full description of the original data can be found at:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
