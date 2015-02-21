@@ -4,6 +4,8 @@ The features are now a reduced set of features that contain the means of the ori
 
 For example, the new feature "tBodyAcc_mean_X" is the mean of the original feature "tBodyAcc-mean()-X" grouped by activity and subject.
 
+For a description of the original features please see the files, features.txt and features_info.txt
+
 Below is a list of all of the features contained in the new tidy data set.
 
 "1" "Activity_Name"
