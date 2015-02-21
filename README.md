@@ -1,4 +1,4 @@
-# Getting Cleaning Data Course Project
+# Getting and Cleaning Data Course Project
 
 ####Ervin-Dawson Warner
 
