@@ -16,10 +16,10 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 1. README.md - This file - a description of how this project was completed.
 2. run_analysis.R - the R code that loads the original data, cleans it, then outputs the tidy data
-3. CodeBook.md - a description of the features in the tidy mean_activity_subject.txt file
-4. mean_activity_subject.txt - the tidy data
+3. CodeBook.md - a description of the features in the "tidy and clean" mean_activity_subject.txt file
+4. mean_activity_subject.txt - the "tidy and clean" data
 
-###The R Script (Run_analysis.R) completes the analysis of the data.  It performas the following:
+###The R Script (run_analysis.R) completes the analysis of the data.  It performs the following steps:
 
 1. Loads all the data from the original train and test sets (
 2. Combines the train and test sets into single tables
@@ -31,4 +31,4 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 8. Writes the tidy and clean data to a file
 9. Loads the tidy data from the file to verify it was written correctly and is reproducible.
 
-####Note - In order to run the analysis, the original data must be in the same folder as the Run_analysis.R file.
+####Note - In order to run the analysis, the original data must be in the same folder as the run_analysis.R file.
