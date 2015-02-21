@@ -5,9 +5,11 @@
 ###The goal of the project was to take the original cellphone data and provide new "tidy and clean" data.
 
 A full description of the original data can be found at:
+
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 In addition the data for this project can be found at:
+
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 ###This project contains the following files
@@ -29,4 +31,4 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 8. Writes the tidy and clean data to a file
 9. Loads the tidy data from the file to verify it was written correctly and is reproducible.
 
-Note - In order to run the analysis, the original data must be in the same folder as the Run_analysis.R file.
+####Note - In order to run the analysis, the original data must be in the same folder as the Run_analysis.R file.
